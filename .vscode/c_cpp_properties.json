@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+        
+                "${workspaceFolder}/**",
+                "D:\\program\\MPI\\Include\\"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+
+            // 编译器路径，如果使用C++就用g++.exe，如果使用C语言就使用gcc.exe
+            "compilerPath": "C:/MinGW/mingw64/bin/gcc.exe",
+
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
